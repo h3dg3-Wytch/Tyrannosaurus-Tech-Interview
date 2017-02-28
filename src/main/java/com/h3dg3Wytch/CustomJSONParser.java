@@ -61,7 +61,7 @@ public class CustomJSONParser {
 
         } catch (JSONMalformedException e) {
         } catch (ParseException e) {
-            System.out.println("Cannot find file. Please enter valid input");
+            System.out.println("Cannot parse file. Please enter valid input");
         } catch (FileNotFoundException e) {
             System.out.println("Cannot find file. Please enter valid input");
         } catch (IOException e) {
